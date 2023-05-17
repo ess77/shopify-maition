@@ -5069,7 +5069,7 @@ svg.icon:not(.icon--full-color) circle,svg.icon:not(.icon--full-color) ellipse,s
   }
 
 [data-transitions=true].loaded .transition-body{
-    animation:page-fade-in-up 0.8s ease forwards;
+    animation:page-fade-in-up 0.3s ease forwards;
   }
 
 [data-transitions=true].unloading .transition-body{
