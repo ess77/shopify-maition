@@ -1,0 +1,27 @@
+<!-- Barre Dynamique -->
+<div class="typing-effect__banner">slidark vous propose <span id="typing-effect" class="typing-effect"></span></div>
+
+{% schema %}
+  {
+    "name": "t:sections.header.settings.header_announcement_bar",
+    "settings": [
+      {
+        "type": "text",
+        "id": "announcement_text",
+        "label": "t:sections.header.settings.announcement_text.label",
+        "default": "Free shipping and returns",
+        "info": "t:sections.header.settings.announcement_text.info"
+      },
+      {
+        "type": "url",
+        "id": "announcement_link",
+        "label": "t:sections.header.settings.announcement_link.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "announcement_closable",
+        "label": "t:sections.header.settings.announcement_closable.label"
+      }
+    ]
+  }
+{% endschema %}
